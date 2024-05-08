@@ -4,3 +4,7 @@ require("core.plugin_config.treesitter")
 require("core.plugin_config.telescope")
 require("core.plugin_config.mason")
 require("core.plugin_config.lsp")
+require("core.plugin_config.nvim-cmp")
+require("core.plugin_config.autopairs")
+require("core.plugin_config.alpha")
+

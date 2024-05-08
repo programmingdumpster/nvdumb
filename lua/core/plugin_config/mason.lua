@@ -8,10 +8,9 @@ require("mason").setup({
       },
     })
 
-    mason_lspconfig.setup({
+require("mason-lspconfig").setup({
       -- list of servers for mason to install
       ensure_installed = {
-        "rust-analyzer"
         "tsserver",
         "html",
         "cssls",
@@ -26,7 +25,7 @@ require("mason").setup({
       },
     })
 
-    mason_tool_installer.setup({
+require("mason-tool-installer").setup({
       ensure_installed = {
         "prettier", -- prettier formatter
         "stylua", -- lua formatter
